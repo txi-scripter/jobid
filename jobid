@@ -54,7 +54,7 @@ Label.Size = UDim2.new(0, 200, 0, 28)
 Label.Font = Enum.Font.SourceSansBold
 Label.Text = "txi Job ID  Discord:nhbinh_11"
 Label.TextColor3 = Color3.new(0, 0.0, 0)
-Label.TextSize = 25
+Label.TextSize = 20
 
 PasteJobID.Name = "PasteJobID"
 PasteJobID.Parent = MainFrame
