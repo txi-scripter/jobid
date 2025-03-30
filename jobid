@@ -10,8 +10,10 @@ local GuiService = game:GetService("StarterGui")
 local TeleService = game:GetService("TeleportService")
 local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
+GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Wait 🙄";})
+setclipboard(game.JobId)
 
-GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Done";})
+GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Done 😎";})
 setclipboard(game.JobId)
 
 JobIDGui.Name = "JobIDGui"
@@ -117,11 +119,11 @@ Close.BackgroundColor3 = Color3.new(1, 1, 1)
 Close.BackgroundTransparency = 1
 Close.Position = UDim2.new(0.917502344, 0, 0.0291970801, 0)
 Close.Size = UDim2.new(0, 25, 0, 13)
-Close.Font = Enum.Font.SourceSans
+Close.Font = Enum.Font.SourceSansBold
 Close.Text = "x"
-Close.TextColor3 = Color3.new(1, 0.666667, 0)
+Close.TextColor3 = Color3.new(0, 0, 0)
 Close.TextSize = 30
 Close.MouseButton1Down:connect(function()
-GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Closing Gui";})
+GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Closing Gui 😋";})
 JobIDGui:Destroy()
 end)
