@@ -89,9 +89,9 @@ TeleService:TeleportToPlaceInstance(game.PlaceId,PasteJobID.Text,Players.LocalPl
 if CoreGui.RobloxPromptGui.promptOverlay:WaitForChild("ErrorPrompt") then
        if CoreGui.RobloxPromptGui.promptOverlay.ErrorPrompt.MessageArea.ErrorFrame.ButtonArea:FindFirstChild("OkButton") then
            game:GetService("GuiService"):ClearError()
-           GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Error, Invalid Job ID";})
+           GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Error ❌";})
        else
-           GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Successful, Joining Server";})  
+           GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Successful ✅";})  
        end
 end
 end)
@@ -109,7 +109,7 @@ CopyJobID.TextColor3 = Color3.new(0, 0, 0)
 CopyJobID.TextSize = 25
 CopyJobID.TextXAlignment = Enum.TextXAlignment.Right
 CopyJobID.MouseButton1Down:connect(function()
-GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Copied Job ID to Your Clipboard";})
+GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Copied Job ID ✅";})
 setclipboard(game.JobId)
 end)
 
