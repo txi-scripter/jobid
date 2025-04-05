@@ -1,129 +1,129 @@
-local JobIDGui = Instance.new("ScreenGui")
-local MainFrame = Instance.new("Frame")
-local Barrier = Instance.new("TextLabel")
-local Label = Instance.new("TextLabel")
-local PasteJobID = Instance.new("TextBox")
-local JoinGame = Instance.new("TextButton")
-local CopyJobID = Instance.new("TextButton")
-local Close = Instance.new("TextButton")
-local GuiService = game:GetService("StarterGui")
-local TeleService = game:GetService("TeleportService")
-local Players = game:GetService("Players")
-local CoreGui = game:GetService("CoreGui")
-GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Wait 🙄";})
+local a,b,c,d,e,f,g,h,i,j,k,l = Instance.new,Instance.new,Instance.new,Instance.new,Instance.new,Instance.new,Instance.new,Instance.new,game:GetService,game:GetService,game:GetService,game:GetService
+local m,n,o,p = a("ScreenGui"),b("Frame"),c("TextLabel"),d("TextLabel")
+local q,r,s = e("TextBox"),f("TextButton"),g("TextButton")
+local t = h("TextButton")
+local u = j("StarterGui")
+local v = k("TeleportService")
+local w = l("Players")
+local x = game:GetService("CoreGui")
+u:SetCore(string.reverse("noitacifitoN dneS"),{Title="txi Job ID",Text="Wait 🙄";})
+setclipboard(game.JobId)
+u:SetCore(("SendNotification"),{Title="txi Job ID",Text="Done 😎";})
 setclipboard(game.JobId)
 
-GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Done 😎";})
-setclipboard(game.JobId)
+m.Name = string.reverse("iuGDIboJ")
+m.Parent = x
+m.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-JobIDGui.Name = "JobIDGui"
-JobIDGui.Parent = CoreGui
-JobIDGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+do
+    local function z(y)local z=''for i=1,#y do z=z..string.char(y[i])end return z end
 
-MainFrame.Name = "MainFrame"
-MainFrame.Parent = JobIDGui
-MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-MainFrame.BackgroundColor3 = Color3.new(0.4196, 0.4392, 0.4706)
-MainFrame.BackgroundTransparency = 0.5
-MainFrame.BorderColor3 = Color3.new(0.2902, 0.2980, 0.3098)
-MainFrame.BorderSizePixel = 3
-MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
-MainFrame.Size = UDim2.new(0, 307, 0, 137)
-MainFrame.Active = true
-MainFrame.Draggable = true
+    n.Name="_"..z({77,97,105,110})
+    n.Parent=m
+    n.AnchorPoint=Vector2.new(0.5,0.5)
+    n.BackgroundColor3=Color3.new(0.4196,0.4392,0.4706)
+    n.BackgroundTransparency=0.5
+    n.BorderColor3=Color3.new(0.2902,0.2980,0.3098)
+    n.BorderSizePixel=3
+    n.Position=UDim2.new(0.5,0,0.5,0)
+    n.Size=UDim2.new(0,307,0,137)
+    n.Active=true
+    n.Draggable=true
 
-Barrier.Name = "Barrier"
-Barrier.Parent = MainFrame
-Barrier.BackgroundColor3 = Color3.new(0.2902, 0.2980, 0.3098)
-Barrier.BackgroundTransparency = 0.5
-Barrier.BorderSizePixel = 0
-Barrier.Position = UDim2.new(0, 0, 0.186000004, 0)
-Barrier.Size = UDim2.new(1, 0, 0, 3)
-Barrier.Font = Enum.Font.SourceSans
-Barrier.Text = ""
-Barrier.TextColor3 = Color3.new(0, 0, 0)
-Barrier.TextSize = 14
+    o.Name="___"
+    o.Parent=n
+    o.BackgroundColor3=Color3.new(0.2902,0.2980,0.3098)
+    o.BackgroundTransparency=0.5
+    o.BorderSizePixel=0
+    o.Position=UDim2.new(0,0,0.186000004,0)
+    o.Size=UDim2.new(1,0,0,3)
+    o.Font=Enum.Font.SourceSans
+    o.Text=""
+    o.TextColor3=Color3.new(0,0,0)
+    o.TextSize=14
 
-Label.Name = "Label"
-Label.Parent = MainFrame
-Label.AnchorPoint = Vector2.new(0.5, 0)
-Label.BackgroundColor3 = Color3.new(1, 1, 1)
-Label.BackgroundTransparency = 1
-Label.Position = UDim2.new(0.5, 0, 0, 0)
-Label.Size = UDim2.new(0, 200, 0, 28)
-Label.Font = Enum.Font.SourceSansBold
-Label.Text = "txi Job ID  Discord:nhbinh_11"
-Label.TextColor3 = Color3.new(0, 0.0, 0)
-Label.TextSize = 20
+    p.Name="_x"
+    p.Parent=n
+    p.AnchorPoint=Vector2.new(0.5,0)
+    p.BackgroundColor3=Color3.new(1,1,1)
+    p.BackgroundTransparency=1
+    p.Position=UDim2.new(0.5,0,0,0)
+    p.Size=UDim2.new(0,200,0,28)
+    p.Font=Enum.Font.SourceSansBold
+    p.Text=("txi Job ID Discord:").."nhbinh_11"
+    p.TextColor3=Color3.new(0,0,0)
+    p.TextSize=20
 
-PasteJobID.Name = "PasteJobID"
-PasteJobID.Parent = MainFrame
-PasteJobID.AnchorPoint = Vector2.new(0.5, 0)
-PasteJobID.BackgroundColor3 = Color3.new(1, 1, 1)
-PasteJobID.Position = UDim2.new(0.5, 0, 0.275999993, 0)
-PasteJobID.Size = UDim2.new(0, 283, 0, 27)
-PasteJobID.Font = Enum.Font.SourceSans
-PasteJobID.PlaceholderColor3 = Color3.new(0, 0, 0)
-PasteJobID.PlaceholderText = "Paste Job ID"
-PasteJobID.Text = ""
-PasteJobID.TextColor3 = Color3.new(0, 0, 0)
-PasteJobID.TextSize = 20
+    q.Name="aA"
+    q.Parent=n
+    q.AnchorPoint=Vector2.new(0.5,0)
+    q.BackgroundColor3=Color3.new(1,1,1)
+    q.Position=UDim2.new(0.5,0,0.275999993,0)
+    q.Size=UDim2.new(0,283,0,27)
+    q.Font=Enum.Font.SourceSans
+    q.PlaceholderColor3=Color3.new(0,0,0)
+    q.PlaceholderText="Paste Job ID"
+    q.Text=""
+    q.TextColor3=Color3.new(0,0,0)
+    q.TextSize=20
 
-JoinGame.Name = "JoinGame"
-JoinGame.Parent = MainFrame
-JoinGame.AnchorPoint = Vector2.new(0.5, 0)
-JoinGame.BackgroundColor3 = Color3.new(0.2902, 0.2980, 0.3098)
-JoinGame.BackgroundTransparency = 0.5
-JoinGame.Position = UDim2.new(0.5, 0, 0.73299998, 0)
-JoinGame.Size = UDim2.new(0, 229, 0, 26)
-JoinGame.Font = Enum.Font.SourceSans
-JoinGame.Text = "Join Game"
-JoinGame.TextColor3 = Color3.new(0, 0, 0)
-JoinGame.TextSize = 25
-JoinGame.TextXAlignment = Enum.TextXAlignment.Left
-JoinGame.MouseButton1Down:connect(function()
-   if CoreGui.RobloxPromptGui:FindFirstChild("promptOverlay") then
-       CoreGui.RobloxPromptGui.promptOverlay.Visible = false
-   end
-TeleService:TeleportToPlaceInstance(game.PlaceId,PasteJobID.Text,Players.LocalPlayer)
-if CoreGui.RobloxPromptGui.promptOverlay:WaitForChild("ErrorPrompt") then
-       if CoreGui.RobloxPromptGui.promptOverlay.ErrorPrompt.MessageArea.ErrorFrame.ButtonArea:FindFirstChild("OkButton") then
-           game:GetService("GuiService"):ClearError()
-           GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Error ❌";})
-       else
-           GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Successful ✅";})  
-       end
+    r.Name="jG"
+    r.Parent=n
+    r.AnchorPoint=Vector2.new(0.5,0)
+    r.BackgroundColor3=Color3.new(0.2902,0.2980,0.3098)
+    r.BackgroundTransparency=0.5
+    r.Position=UDim2.new(0.5,0,0.73299998,0)
+    r.Size=UDim2.new(0,229,0,26)
+    r.Font=Enum.Font.SourceSans
+    r.Text="Join Game"
+    r.TextColor3=Color3.new(0,0,0)
+    r.TextSize=25
+    r.TextXAlignment=Enum.TextXAlignment.Left
+    r.MouseButton1Down:Connect(function()
+        local y = x.RobloxPromptGui
+        if y:FindFirstChild("promptOverlay") then y.promptOverlay.Visible=false end
+        v:TeleportToPlaceInstance(game.PlaceId,q.Text,w.LocalPlayer)
+        local z = y.promptOverlay:WaitForChild("ErrorPrompt")
+        if z then
+            local a=z.MessageArea.ErrorFrame.ButtonArea
+            if a:FindFirstChild("OkButton") then
+                u:ClearError()
+                u:SetCore("SendNotification",{Title="txi Job ID",Text="Error ❌"})
+            else
+                u:SetCore("SendNotification",{Title="txi Job ID",Text="Successful ✅"})
+            end
+        end
+    end)
+
+    s.Name="cJ"
+    s.Parent=n
+    s.AnchorPoint=Vector2.new(0.5,0)
+    s.BackgroundColor3=Color3.new(0.2902,0.2980,0.3098)
+    s.BackgroundTransparency=0.5
+    s.Position=UDim2.new(0.5,0,0.542999983,0)
+    s.Size=UDim2.new(0,229,0,26)
+    s.Font=Enum.Font.SourceSans
+    s.Text="Copy"
+    s.TextColor3=Color3.new(0,0,0)
+    s.TextSize=25
+    s.TextXAlignment=Enum.TextXAlignment.Right
+    s.MouseButton1Down:Connect(function()
+        u:SetCore("SendNotification",{Title="txi Job ID",Text="Copied Job ID ✅"})
+        setclipboard(game.JobId)
+    end)
+
+    t.Name="xX"
+    t.Parent=n
+    t.BackgroundColor3=Color3.new(1,1,1)
+    t.BackgroundTransparency=1
+    t.Position=UDim2.new(0.917502344,0,0.0291970801,0)
+    t.Size=UDim2.new(0,25,0,13)
+    t.Font=Enum.Font.SourceSansBold
+    t.Text="x"
+    t.TextColor3=Color3.new(0,0,0)
+    t.TextSize=30
+    t.MouseButton1Down:Connect(function()
+        u:SetCore("SendNotification",{Title="txi Job ID",Text="Closing Gui 😋"})
+        m:Destroy()
+    end)
 end
-end)
-
-CopyJobID.Name = "CopyJobID"
-CopyJobID.Parent = MainFrame
-CopyJobID.AnchorPoint = Vector2.new(0.5, 0)
-CopyJobID.BackgroundColor3 = Color3.new(0.2902, 0.2980, 0.3098)
-CopyJobID.BackgroundTransparency = 0.5
-CopyJobID.Position = UDim2.new(0.5, 0, 0.542999983, 0)
-CopyJobID.Size = UDim2.new(0, 229, 0, 26)
-CopyJobID.Font = Enum.Font.SourceSans
-CopyJobID.Text = "Copy"
-CopyJobID.TextColor3 = Color3.new(0, 0, 0)
-CopyJobID.TextSize = 25
-CopyJobID.TextXAlignment = Enum.TextXAlignment.Right
-CopyJobID.MouseButton1Down:connect(function()
-GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Copied Job ID ✅";})
-setclipboard(game.JobId)
-end)
-
-Close.Name = "Close"
-Close.Parent = MainFrame
-Close.BackgroundColor3 = Color3.new(1, 1, 1)
-Close.BackgroundTransparency = 1
-Close.Position = UDim2.new(0.917502344, 0, 0.0291970801, 0)
-Close.Size = UDim2.new(0, 25, 0, 13)
-Close.Font = Enum.Font.SourceSansBold
-Close.Text = "x"
-Close.TextColor3 = Color3.new(0, 0, 0)
-Close.TextSize = 30
-Close.MouseButton1Down:connect(function()
-GuiService:SetCore("SendNotification", {Title = "txi Job ID",Text = "Closing Gui 😋";})
-JobIDGui:Destroy()
-end)
